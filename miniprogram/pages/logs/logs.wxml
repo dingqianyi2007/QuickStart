@@ -1,0 +1,4 @@
+  <view class="guide">
+    <text class="headline">测试跳转</text>
+    <text class="p">1. 如果主页tabBar中设置的list中的pagePath与当前navigator跳转的url相同，则navigator标签中的跳转失效</text>
+  </view>

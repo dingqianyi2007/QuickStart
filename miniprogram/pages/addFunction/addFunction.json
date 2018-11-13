@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "云函数指引",
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "red",
+    "backgroundColor": "#FFFFF0" 
+  }
+  
+}

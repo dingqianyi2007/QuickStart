@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/logs/logs",
+    "pages/myPictures/myPictures",
+    "pages/myMusics/myMusics",
+    "pages/myVideos/myVideos",
+    "pages/mySettings/mySettings",
+    "pages/model/model"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "red",
+    "backgroundColor": "#FFFFF0",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/myPictures/myPictures",
+        "text": "我的图片"
+      },
+      {
+        "pagePath": "pages/myMusics/myMusics",
+        "text": "我的音乐"
+      },
+      {
+        "pagePath": "pages/myVideos/myVideos",
+        "text": "我的视频"
+      },
+      {
+        "pagePath": "pages/mySettings/mySettings",
+        "text": "我的设置"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ]
+
+}
