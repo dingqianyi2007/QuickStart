@@ -30,7 +30,7 @@
   </view>
 </view>
 <view class="section section_gap">
-  <view class="section__title">horizontal scroll：横向滑动必须给子view添加width以及display属性</view>
+  <view class="section__title">horizontal scroll：横向滑动必须给子view添加width以及display属性，否则不生效</view>
   <scroll-view class="scroll-view_H" scroll-x style="width: 100%;" >
     <view id="green" class="scroll-view-item_H bc_green"></view>
     <view id="red"  class="scroll-view-item_H bc_red"></view>
